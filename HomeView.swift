@@ -10,17 +10,19 @@ import SwiftUI
 struct HomeView: View {
     var body: some View {
         NavigationStack{
-            Rectangle()
-                .frame(width: 100, height: 100)
-            
-            
-            
-            .navigationTitle("Olá")
-            Button(action: {
-                
-            }) {
-                Image(systemName: "bell")
+            ScrollView {
+                Rectangle()
+                    .frame(width: 100, height: 5600)
             }
+            .navigationTitle("Olá, xxx!")
+            .toolbar(content: {
+                Button(action: {
+                    
+                }) {
+                    Image(systemName: "bell")
+                }
+            })
+            
             
         }
     }
