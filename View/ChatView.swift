@@ -1,11 +1,31 @@
 import SwiftUI
 
 struct ChatView: View {
+    @EnvironmentObject var sessaoUser:  UserSection
+
+    var conversas: [Conversa] {
+        switch sessaoUsuario.usuarioAtual.tipo {
+        case .artista:
+            return conversasArtistaMock
+            
+        case .bar:
+            return conversasBarMock
+        }
+    }
+    
     var body: some View {
-        VStack{
-            Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
-            Circle()
-                .frame(width: /*@START_MENU_TOKEN@*/100/*@END_MENU_TOKEN@*/, height: 100)
+        NavigationStack {
+            List {
+                ForEach(conversas) { conversa in
+                    NavigationLink {
+                        ChatDetailView(conversa: conversa)
+                    } label: {
+                        ChatRowView(conversa: conversa)
+                    }
+                }
+            }
+            .listStyle(.plain)
+            .navigationTitle("Conversas")
         }
     }
 }
