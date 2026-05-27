@@ -1,8 +1,8 @@
 import Foundation
 
 let usuarioLogadoMock = Usuario(
-    nome: "Banda Aurora",
-    email: "banda.aurora@email.com",
+    nome: "Banda Sirena",
+    email: "bandasirenaoficial@gmail.com",
     tipo: .artista
 )
 
