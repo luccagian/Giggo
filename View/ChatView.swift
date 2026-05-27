@@ -1,10 +1,3 @@
-//
-//  ChatView.swift
-//  Projeto
-//
-//  Created by Aluno Mack on 25/05/26.
-//
-
 import SwiftUI
 
 struct ChatView: View {
