@@ -1,7 +1,7 @@
 import SwiftUI
 
 struct HomeView: View {
-    @EnvironmentObject var sessaoUser = UserSection
+    @EnvironmentObject var sessaoUser:  UserSection
 
     var user: User {
         sessaoUser.atualUser
