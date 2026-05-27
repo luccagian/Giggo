@@ -1,6 +1,6 @@
 import Foundation
 
-let VenueChatMocks: [Chat] = [
+let VenueChatMock: [Chat] = [
     Conversa(
         nome: "Banda Aurora",
         tipo: "Rock Alternativo • São Paulo",
