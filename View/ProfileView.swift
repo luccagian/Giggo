@@ -76,3 +76,7 @@ private var switchUserSection: some View {
         }
     }
 }
+
+#Preview {
+    ProfileView()
+}
