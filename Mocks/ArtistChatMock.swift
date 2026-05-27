@@ -1,7 +1,7 @@
 import Foundation
 
 let ArtistChatMock: [Chat] = [
-    Conversa(
+    Chat(
         nome: "Bar Central",
         tipo: "Casa de show • São Paulo",
         ultimaMensagem: "Fechado! Vou gerar o contrato pelo Giggo.",
