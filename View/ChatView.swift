@@ -4,7 +4,7 @@ struct ChatView: View {
     @EnvironmentObject var sessaoUser:  UserSection
 
     var conversas: [Chat] {
-        switch sessaoUsuario.usuarioAtual.tipo {
+        switch sessaoUsuario.atualUser.tipo {
         case .artista:
             return VenueChatMock
             
