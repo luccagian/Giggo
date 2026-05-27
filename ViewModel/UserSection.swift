@@ -10,3 +10,4 @@ class UserSection: ObservableObject {
   func trocaBar(){
     atualUser = userBar
   }
+}
