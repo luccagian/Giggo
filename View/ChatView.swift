@@ -3,22 +3,22 @@ import SwiftUI
 struct ChatView: View {
     @EnvironmentObject var sessaoUser:  UserSection
 
-    var conversas: [Conversa] {
+    var conversas: [Chat] {
         switch sessaoUsuario.usuarioAtual.tipo {
         case .artista:
-            return conversasArtistaMock
+            return VenueChatMock
             
         case .bar:
-            return conversasBarMock
+            return ArtistChatMock
         }
     }
     
     var body: some View {
         NavigationStack {
             List {
-                ForEach(conversas) { conversa in
+                ForEach(conversas) { conversas in
                     NavigationLink {
-                        ChatDetailView(conversa: conversa)
+                        ChatDetailView(conversas: conversas)
                     } label: {
                         ChatRowView(conversa: conversa)
                     }
