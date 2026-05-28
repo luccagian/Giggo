@@ -1,0 +1,83 @@
+import Foundation
+
+let VenueChatMock: [Conversa] = [
+    Conversa(
+        nome: "Banda Aurora",
+        tipo: "Rock Alternativo • São Paulo",
+        ultimaMensagem: "Podemos levar nosso próprio amplificador.",
+        horario: "16:15",
+        icone: "guitars.fill",
+        mensagens: [
+            Mensagem(
+                texto: "Olá! Estamos procurando uma banda para tocar na sexta.",
+                sendByUser: true,
+                horario: "16:00"
+            ),
+            Mensagem(
+                texto: "Boa tarde! Temos disponibilidade. Qual seria o horário?",
+                sendByUser: false,
+                horario: "16:03"
+            ),
+            Mensagem(
+                texto: "Das 21h às 23h. O repertório seria rock e pop rock.",
+                sendByUser: true,
+                horario: "16:06"
+            ),
+            Mensagem(
+                texto: "Perfeito, esse é bem o nosso estilo.",
+                sendByUser: false,
+                horario: "16:10"
+            ),
+            Mensagem(
+                texto: "Vocês precisam de estrutura completa?",
+                sendByUser: true,
+                horario: "16:12"
+            ),
+            Mensagem(
+                texto: "Podemos levar nosso próprio amplificador.",
+                sendByUser: false,
+                horario: "16:15"
+            )
+        ]
+    ),
+    
+    Conversa(
+        nome: "Lucas Martins",
+        tipo: "MPB e Pop • Santos",
+        ultimaMensagem: "Consigo fazer voz e violão nesse formato.",
+        horario: "11:32",
+        icone: "music.mic",
+        mensagens: [
+            Mensagem(
+                texto: "Olá, Lucas! Temos uma vaga para apresentação acústica no domingo.",
+                sendByUser: true,
+                horario: "11:20"
+            ),
+            Mensagem(
+                texto: "Oi! Tenho interesse sim. Qual seria o tempo de show?",
+                sendByUser: false,
+                horario: "11:23"
+            ),
+            Mensagem(
+                texto: "Seriam duas horas, em formato mais tranquilo para almoço.",
+                sendByUser: true,
+                horario: "11:26"
+            ),
+            Mensagem(
+                texto: "Legal. O repertório pode ser MPB, pop nacional e algumas internacionais?",
+                sendByUser: false,
+                horario: "11:29"
+            ),
+            Mensagem(
+                texto: "Sim, exatamente esse estilo.",
+                sendByUser: true,
+                horario: "11:30"
+            ),
+            Mensagem(
+                texto: "Consigo fazer voz e violão nesse formato.",
+                sendByUser: false,
+                horario: "11:32"
+            )
+        ]
+    )
+]
