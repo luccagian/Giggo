@@ -4,7 +4,7 @@ let baresMock: [InfosBasicas] = [
         InfosBasicas(
             id: 1,
             titulo: "Blue Stage Bar",
-            legenda: "Casa de rock e blues",
+            legenda: "Rock e blues",
             localizacao: "Vila Madalena, SP",
             avalia: 4.8,
             icone: "building.2.fill",
@@ -14,7 +14,7 @@ let baresMock: [InfosBasicas] = [
         InfosBasicas(
             id: 2,
             titulo: "Arena Sunset",
-            legenda: "Eventos ao ar livre",
+            legenda: "Variados",
             localizacao: "Santos, SP",
             avalia: 4.7,
             icone: "sunset.fill",
@@ -24,7 +24,7 @@ let baresMock: [InfosBasicas] = [
         InfosBasicas(
             id: 3,
             titulo: "Café do Som",
-            legenda: "Ambiente intimista para acústico",
+            legenda: "Acústico",
             localizacao: "Pinheiros, SP",
             avalia: 4.5,
             icone: "cup.and.saucer.fill",
@@ -34,7 +34,7 @@ let baresMock: [InfosBasicas] = [
         InfosBasicas(
             id: 4,
             titulo: "Galpão 77",
-            legenda: "Shows independentes e alternativos",
+            legenda: "Alternativos",
             localizacao: "Mooca, SP",
             avalia: 4.6,
             icone: "music.note.house.fill",
@@ -44,7 +44,7 @@ let baresMock: [InfosBasicas] = [
         InfosBasicas(
             id: 5,
             titulo: "Vila Lounge",
-            legenda: "Pop, eletrônico e eventos privados",
+            legenda: "Pop, eletrônico",
             localizacao: "São Paulo, SP",
             avalia: 4.4,
             icone: "party.popper.fill",
@@ -64,7 +64,7 @@ let baresMock: [InfosBasicas] = [
         InfosBasicas(
             id: 7,
             titulo: "Jazz Club 1940",
-            legenda: "Jazz, soul e música instrumental",
+            legenda: "Jazz, soul e instrumental",
             localizacao: "Jardins, SP",
             avalia: 4.9,
             icone: "music.mic.circle.fill",
@@ -74,7 +74,7 @@ let baresMock: [InfosBasicas] = [
         InfosBasicas(
             id: 8,
             titulo: "Praia Music Bar",
-            legenda: "Shows em quiosque e eventos na praia",
+            legenda: "Variados",
             localizacao: "Praia Grande, SP",
             avalia: 4.5,
             icone: "beach.umbrella.fill",
@@ -84,7 +84,7 @@ let baresMock: [InfosBasicas] = [
         InfosBasicas(
             id: 9,
             titulo: "Estação 21",
-            legenda: "Casa de shows de médio porte",
+            legenda: "Variados",
             localizacao: "Campinas, SP",
             avalia: 4.6,
             icone: "ticket.fill",
@@ -94,7 +94,7 @@ let baresMock: [InfosBasicas] = [
         InfosBasicas(
             id: 10,
             titulo: "Rooftop Live",
-            legenda: "Eventos premium com música ao vivo",
+            legenda: "Variados",
             localizacao: "Itaim Bibi, SP",
             avalia: 4.8,
             icone: "building.columns.fill",

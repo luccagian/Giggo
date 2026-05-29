@@ -41,7 +41,6 @@ struct ChatRowView: View {
             }
         }
         .padding(.vertical, 8)
-        .background(Color("BlueGiggo"))
     }
 
 }

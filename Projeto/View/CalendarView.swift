@@ -46,7 +46,7 @@ struct CalendarView: View {
                     VStack(spacing: 16) {
                         ForEach(itensData) { infos in
                             NavigationLink {
-                                DetailView(dados: infos)
+                                DetailView(info: infos)
                             } label: {
                                 CardsView(info: infos, isRecomendado: false)
                             }
@@ -61,6 +61,6 @@ struct CalendarView: View {
 
 #Preview {
     CalendarView()
-        .preferredColorScheme(.dark)
+        
 
 }

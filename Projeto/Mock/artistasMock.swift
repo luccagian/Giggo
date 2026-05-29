@@ -54,7 +54,7 @@ let artistasMock: [InfosBasicas] = [
         InfosBasicas(
             id: 6,
             titulo: "Ana Clara Jazz",
-            legenda: "Jazz, soul e bossa nova",
+            legenda: "Jazz e Bossa nova",
             localizacao: "São Paulo, SP",
             avalia: 4.9,
             icone: "mic.fill",
@@ -64,7 +64,7 @@ let artistasMock: [InfosBasicas] = [
         InfosBasicas(
             id: 7,
             titulo: "Forró Pé de Serra",
-            legenda: "Forró universitário e xote",
+            legenda: "Forró universitário",
             localizacao: "Osasco, SP",
             avalia: 4.4,
             icone: "speaker.wave.2.fill",
@@ -74,7 +74,7 @@ let artistasMock: [InfosBasicas] = [
         InfosBasicas(
             id: 8,
             titulo: "Pedro Acústico",
-            legenda: "Pop internacional acústico",
+            legenda: "Pop internacional",
             localizacao: "Barueri, SP",
             avalia: 4.3,
             icone: "guitars.fill",
@@ -84,7 +84,7 @@ let artistasMock: [InfosBasicas] = [
         InfosBasicas(
             id: 9,
             titulo: "Bateria Urbana",
-            legenda: "Percussão, samba-reggae e axé",
+            legenda: "Samba-reggae e axé",
             localizacao: "São Paulo, SP",
             avalia: 4.6,
             icone: "drum.fill",
@@ -94,7 +94,7 @@ let artistasMock: [InfosBasicas] = [
         InfosBasicas(
             id: 10,
             titulo: "Vozes do Vale",
-            legenda: "Coral contemporâneo",
+            legenda: "Coral",
             localizacao: "Jundiaí, SP",
             avalia: 4.2,
             icone: "person.3.fill",

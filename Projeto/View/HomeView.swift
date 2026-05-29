@@ -53,7 +53,7 @@ struct HomeView: View {
                         HStack(spacing: 16) {
                             ForEach(recomendados) { infos in
                                 NavigationLink{
-                                    DetailView(dados: infos)
+                                    DetailView(info: infos)
                                 } label: {
                                     CardsView(info: infos, isRecomendado: true)
                                 }
@@ -69,7 +69,7 @@ struct HomeView: View {
                         VStack(spacing: 16) {
                             ForEach(cardsNormais) { infos in
                                 NavigationLink {
-                                    DetailView(dados: infos)
+                                    DetailView(info: infos)
                                 } label: {
                                     CardsView(info: infos, isRecomendado: false)
                                 }
